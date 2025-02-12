@@ -1,0 +1,138 @@
+.background {
+  background: linear-gradient(to right, #4f4e4e, #535e5c, #eeb3b3);
+  /* background: linear-gradient(to right, #4f4e4e, #535e5c, #eeb3b3), url("https://i.imgur.com/qt9C5x9.jpg"); */
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-blend-mode: overlay;
+  filter: grayscale(30%);
+  position: fixed;
+  z-index: -1;
+}
+
+.authentication {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__login {
+  width: 40rem;
+  min-width: 19rem;
+  height: 25rem;
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.5rem;
+}
+
+.login__title {
+  color: rgb(214, 208, 208);
+  text-align: center;
+  margin: 0;
+}
+
+.form-login {
+  padding: 2rem;
+  font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 1.3rem;
+  grid-template-areas:
+    "username"
+    "password"
+    "button"
+    "notes";
+}
+
+.form-login label {
+  color: white;
+  font-weight: bold;
+}
+
+.form__controls input {
+  padding: 1rem;
+  width: 100%;
+  min-width: 15rem;
+  background-color: rgb(255, 255, 255, 0.5);
+  border: 1px solid rgb(255, 255, 255, 0.5);
+  font: inherit;
+  color: white;
+}
+
+.form__controls input:focus {
+  outline: none;
+  box-shadow: 1px 1px 7px 2px white;
+}
+
+.form__controls-button {
+  grid-area: button;
+  justify-self: end;
+}
+
+.button--submit {
+  padding: 1rem;
+  width: 10rem;
+  font: inherit;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgba(59, 135, 168, 0.7);
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.button--submit:hover {
+  box-shadow: 1px 1px 7px 2px white;
+}
+
+.form__controls-notes {
+  grid-area: notes;
+  justify-self: center;
+  color: white;
+  /* padding-top: 0.5rem; */
+}
+
+.form__controls-notes {
+  grid-area: notes;
+  justify-self: center;
+  color: white;
+  /* padding-top: 0.5rem; */
+}
+
+@media screen and (max-width: 30rem) {
+  .main__login {
+    height: 20rem;
+    padding-bottom: 0;
+  }
+
+  .form-login {
+    padding: 1rem;
+  }
+
+  .form-login label,
+  .form-login input,
+  .form-login button {
+    font-size: 1rem;
+  }
+
+  .form-login input,
+  .form-login button {
+    padding: 0.5rem;
+  }
+
+  .login__title {
+    font-size: 1.5rem;
+  }
+
+  .button--submit {
+    width: 8rem;
+  }
+
+  .form__controls-notes {
+    font-size: 0.8rem;
+  }
+}

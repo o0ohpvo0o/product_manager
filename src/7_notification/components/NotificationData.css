@@ -1,0 +1,11 @@
+.notification__item span {
+  margin: 0;
+  border-bottom: 1px solid white;
+  display: block;
+}
+
+.notification__item span,
+.notification__item p {
+  padding: 0.5rem;
+  word-break: break-word;
+}

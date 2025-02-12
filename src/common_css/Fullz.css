@@ -1,0 +1,13 @@
+.leads__btn.unmask{
+  width: auto;
+}
+
+@media only screen and (max-width: 100rem) {
+  .summary__data.fullz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: var(--min-width);
+    overflow: scroll;
+  }
+}

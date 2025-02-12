@@ -1,0 +1,30 @@
+.loader {
+  border: 0.7rem solid #f3f3f3;
+  border-top: 0.7rem solid #955858;
+  border-bottom: 0.7rem solid #955858;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  animation: spin 700ms linear infinite;
+  position: fixed;
+  z-index: 51;
+
+  left: 45%;
+  top: 40%;
+}
+
+@media screen and (min-width: 60rem) {
+  .loader {
+    left: 50%;
+    top: 40%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

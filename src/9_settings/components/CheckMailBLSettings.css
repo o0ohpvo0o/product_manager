@@ -1,0 +1,20 @@
+.converted-html {
+  background-color: white;
+  height: 291px;
+  color: black;
+  padding: 0.1rem;
+  word-break: break-word;
+  overflow: scroll;
+}
+
+.converted-htm p {
+  resize: none;
+}
+
+.email-address {
+  color: rgb(41, 145, 0);
+}
+
+.bl-site {
+  color: red;
+}

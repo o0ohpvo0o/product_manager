@@ -1,0 +1,16 @@
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.search-form input {
+  padding: 0.1rem;
+  width: 15rem;
+  font: inherit;
+}
+
+.search-form input:focus {
+  outline: none;
+}
+

@@ -1,0 +1,47 @@
+.table__paginations {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .table__pagination:last-of-type {
+    display: flex;
+    gap: 0.1rem;
+  }
+  
+  .table__pagination span {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .table__pagination span:hover,
+  .table__pagination span:active {
+    cursor: pointer;
+  }
+  
+  .table__pagination input {
+    padding: 0.1rem;
+    width: 8rem;
+    font: inherit;
+  }
+  
+  .table__pagination input:focus {
+    outline: none;
+  }
+  
+  .table__pagination .goto {
+    background-color: rgb(18, 129, 209);
+    border-color: rgb(18, 129, 209);
+    margin: 0;
+  }
+  
+  .not-allow {
+    color: gray !important;
+    cursor: not-allowed !important;
+  }

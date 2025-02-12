@@ -1,0 +1,15 @@
+.backdrop {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.9);
+  position: fixed;
+  z-index: 50;
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.display {
+  display: block;
+  transform: translateY(0rem) translateX(0rem);
+  transition: transform 500ms cubic-bezier(0.5, 1, 0.89, 1);
+}

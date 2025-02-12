@@ -1,0 +1,18 @@
+.leads__btn.remove {
+    background-color: rgb(175, 63, 63);
+    border: 1px solid rgb(175, 63, 63);
+  }
+  
+  .leads__btn.reset {
+    background-color: rgb(18, 129, 209);
+    border-color: rgb(18, 129, 209);
+    margin-left: 0.5rem;
+  }
+  
+  .leads__btn:hover,
+  .leads__btn:active,
+  .leads__btn:hover,
+  .leads__btn:active {
+    cursor: pointer;
+    box-shadow: 1px 1px 7px 2px white;
+  }

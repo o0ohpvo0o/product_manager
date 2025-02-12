@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--light-black);
+    /* grid-area: footer; */
+    margin-top: 2rem;
+  }
+  
+  .copy-right p {
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .copy-right img {
+    width: 1.5rem;
+    margin-left: 0.2rem;
+  }
+  
+  .copy-right a {
+    text-decoration: none;
+    color: white;
+  }

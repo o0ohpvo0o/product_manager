@@ -1,0 +1,17 @@
+.converted-htm p {
+  resize: none;
+}
+
+.phone-data-type {
+  color: black;
+  /* text-decoration: underline; */
+}
+
+.phone-data {
+  color: green;
+  text-decoration: none;
+}
+
+.error-phone {
+  color: red;
+}

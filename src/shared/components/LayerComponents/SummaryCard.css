@@ -1,0 +1,15 @@
+.summary {
+  margin-top: var(--margin-top);
+  width: 100%;
+  min-width: var(--min-width);
+  height: auto;
+  background-color: var(--light-black);
+  border-radius: var(--border-radius);
+  color: white;
+  padding: 1.5rem;
+}
+
+.summary__information {
+  margin: 0;
+  padding: 0;
+}

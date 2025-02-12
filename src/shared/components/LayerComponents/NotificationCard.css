@@ -1,0 +1,27 @@
+.header-card {
+  width: 100%;
+  min-width: var(--min-width);
+  background-color: var(--light-black);
+  border-radius: var(--border-radius);
+  color: white;
+  padding: 1rem;
+}
+
+.header-card p {
+  margin-bottom: 0;
+}
+
+.header-card span {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.header-card h3 {
+  margin: 0;
+}
+
+.header-card img {
+  width: 1.5rem;
+}
